@@ -213,6 +213,10 @@ START: Harmonic Year Analysis
 5. Keep the Summary Tables → At your desk
 ```
 
+### Applied analysis
+
+- [Radico Khaitan Gann Analysis](Radico%20Khaitan%20Gann%20Analysis.md) — a dated, educational application of the rulebook to NSE: RADICO, including price/time clusters, conditional scenarios, risks, and the data limitations.
+
 ---
 
 ## 📁 FILE STRUCTURE
@@ -222,6 +226,7 @@ START: Harmonic Year Analysis
 │
 ├── 📄 Gann Market Geometry Rulebook Part 1.md    # Rules 1-107
 ├── 📄 Gann Market Geometry Rulebook Part 2.md    # Rules 108-251
+├── 📄 Radico Khaitan Gann Analysis.md            # Applied RADICO case study
 ├── 📄 README.md                                   # You are here
 └── 📄 LICENSE                                     # CC0 1.0 Universal
 ```
