@@ -242,6 +242,29 @@ START: Harmonic Year Analysis
 
 ---
 
+## ⚙️ COMPANION ENGINE
+
+<div align="center">
+
+**[`engine/`](engine/) — executable Gann engine for NSE (India)**
+
+Python implementation of the rulebook's calculators: geometric angle fans
+(M04), Square of 9/4 wheels (M10–M11), range divisions & the 50% KING
+(M08), time cycles (M12), Gann-scaled charts with **true 45° rendering**
+and update space (M02) — every module pinned to the rule numbers it
+implements, with tests anchored to the rulebook's own worked examples.
+
+```bash
+cd engine && ./setup.sh && .venv/bin/python -m gann demo
+```
+
+Live NSE intraday data via `yfinance`, EOD via `jugaad-data`, offline
+synthetic fallback. See [`engine/README.md`](engine/README.md).
+
+</div>
+
+---
+
 ## 📜 LICENSE
 
 <div align="center">
