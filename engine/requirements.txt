@@ -1,0 +1,14 @@
+# Gann engine — core (offline demo, calculators, charts, tests all work with just these)
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+mplfinance>=0.12.10b0
+
+# --- optional live NSE data sources (engine degrades to synthetic without them) ---
+# Intraday (1m–60m, up to 60 days) + daily for any NSE symbol via SYMBOL.NS
+yfinance>=0.2.40
+# Free NSE EOD history straight from the exchange — https://github.com/jugaad-py/jugaad-data
+# jugaad-data>=0.10
+
+# --- dev ---
+pytest>=7.0
